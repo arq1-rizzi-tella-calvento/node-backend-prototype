@@ -1,0 +1,30 @@
+{
+  "name": "backend-prototype",
+  "version": "0.0.1",
+  "description": "Simple prototype based on Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node -- app/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arq1-rizzi-tella-calvento/node-backend-prototype.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arq1-rizzi-tella-calvento/node-backend-prototype/issues"
+  },
+  "homepage": "https://github.com/arq1-rizzi-tella-calvento/node-backend-prototype#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.1.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "body-parser": "^1.17.1"
+  }
+}
